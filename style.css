@@ -1,0 +1,42 @@
+.banner{
+    background-color:antiquewhite;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 70vh;
+}
+body{
+    background-color: lightgreen;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 400vh;*/
+}
+.banner h1{
+    font-family: Chandas;
+    color: blue;
+    text-align:center;
+    text-decoration: underline;
+}
+.banner input{
+    width: 70%;
+    position: relative;
+    margin: 10px 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: white;
+    /*background-color: transparent;*/
+}
+.button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.banner label{
+    margin: 10px;
+
+}
